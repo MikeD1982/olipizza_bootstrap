@@ -1,9 +1,83 @@
 body {
-  padding-top: 50px;
+
 }
 
+@font-face {
+	font-family: 'LeagueGothic';
+	src: url('../fonts/leaguegothic-regular-webfont.eot');
+	src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/leaguegothic-regular-webfont.woff') format('woff'), url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'), url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.top-bar {
+	background: url('../img/stripe-top.png') repeat-x scroll 0 0 transparent;;
+	background-color: #c35947;
+	width:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	height:6px;
+}
+
+.logo {
+	margin-top:20px;
+}
+
+.navbar {
+	margin-top: 35px;
+	background: rgba(199,91,70,1);
+	background: -moz-linear-gradient(left, rgba(199,91,70,1) 0%, rgba(231,56,39,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(199,91,70,1)), color-stop(100%, rgba(231,56,39,1)));
+	background: -webkit-linear-gradient(left, rgba(199,91,70,1) 0%, rgba(231,56,39,1) 100%);
+	background: -o-linear-gradient(left, rgba(199,91,70,1) 0%, rgba(231,56,39,1) 100%);
+	background: -ms-linear-gradient(left, rgba(199,91,70,1) 0%, rgba(231,56,39,1) 100%);
+	background: linear-gradient(to right, rgba(199,91,70,1) 0%, rgba(231,56,39,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c75b46', endColorstr='#e73827', GradientType=1 );
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.navbar-nav a {
+	display: block;
+	cursor: pointer;
+	color: #ffffff !important;
+	font-family: 'LeagueGothic';
+	font-size: 22px;
+	text-shadow: 1px 1px #000000;
+	text-transform: uppercase;
+}
 
 .navbar-nav a:hover, .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	background: #0383c0 !important;
+	background: rgba(66,36,11,1);
+	background: -moz-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,36,11,1)), color-stop(100%, rgba(110,65,29,1)));
+	background: -webkit-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: -o-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: -ms-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: linear-gradient(to right, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42240b', endColorstr='#6e411d', GradientType=1 );
 	color: #ffffff !important;
+}
+
+.search-background {
+	background: rgba(66,36,11,1);
+	background: -moz-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(66,36,11,1)), color-stop(100%, rgba(110,65,29,1)));
+	background: -webkit-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: -o-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: -ms-linear-gradient(left, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	background: linear-gradient(to right, rgba(66,36,11,1) 0%, rgba(110,65,29,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42240b', endColorstr='#6e411d', GradientType=1 );
+	margin-left:-5px;
+	border:0;
+}
+
+.search-icon {
+	color: #ffffff !important;
+}
+
+.site-carousel {
+	width: 1100px;
 }
